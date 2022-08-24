@@ -1,0 +1,27 @@
+hr{
+    width: 75%;
+    margin: 20px auto;
+    color: rgb(2, 2, 22);
+    border: 5px solid;
+}
+h4{
+    font-size: 40px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 10px solid rgb(27, 30, 66);
+    width: 75%;
+}
+
+.text{
+    font-size: 20px;
+    color: beige;
+    background-color: rgb(31, 31, 48);
+    padding: 30px;
+    border-radius: 20px;
+}
+.img-certif{
+    max-width: 20%;
+    height:auto;
+    padding: 5px;
+    
+}
