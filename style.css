@@ -1,27 +1,86 @@
+/*nav*/
+header{
+    background-color: #140b2c;
+    margin-bottom: 5%;
+    border-bottom: 10px solid rgb(60, 34, 122);
+}
+
+.logo{
+    max-width: 10%;
+}
+.logo-text{
+    color: white;
+}
+a{
+    margin: auto;
+    text-decoration: none; 
+    color: white;
+    padding: 40px;
+    font-size: 25px ;
+
+}
+a:hover{
+    
+    color: rgb(232, 232, 241);
+    background-color: #3e308f;
+    padding: 40px;
+    
+}
+
+
+
+
+/*corp*/
 hr{
     width: 75%;
     margin: 20px auto;
     color: rgb(2, 2, 22);
     border: 5px solid;
 }
-h4{
+h2{
     font-size: 40px;
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-bottom: 10px solid rgb(27, 30, 66);
+    border-bottom: 10px solid rgb(22, 29, 107);
     width: 75%;
+    
 }
 
 .text{
-    font-size: 20px;
+    font-size: 23px;
     color: beige;
     background-color: rgb(31, 31, 48);
-    padding: 30px;
+    padding:20px;
     border-radius: 20px;
+    margin: 20px auto;
 }
 .img-certif{
     max-width: 20%;
     height:auto;
     padding: 5px;
     
+}
+/* footer */
+footer{
+    background-color: #140b2c;
+    margin-top: 2%;
+    border-top: 10px solid rgb(60, 34, 122)
+}
+h3{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    
+}
+.contact{
+    color: white;
+    font-size: 15px;
+}
+.r-sociaux{
+    max-width: 15%;
+    padding: 20px;
+}
+.copyright{
+    background-color: rgb(60, 34, 122) ;
+    color: white;
 }
