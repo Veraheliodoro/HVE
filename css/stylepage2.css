@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p, h1 {
+    opacity: 0.5;
+    color: #0C2151;
+}
+
+h1 {
+    
+}
+
+body {
+    background-color: #fafafa;
+}
+/* Barre Navigation */
+.header{
+    /* background: rgb(255,112,19);
+background: linear-gradient(90deg, rgba(255,112,19,1) 0%, rgba(21,129,255,1) 100%); */
+
+    /* background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+
+    background-color: rgb(63,94,251);
+    background: linear-gradient(to right,rgba(63,94,251,1) 0%, rgba(252,70,70,1) 100%);
+    margin-bottom: 5%;
+    box-shadow: 0px 10px 10px 4px rgba(0,0,0,0.67);
+}
+
+.logo{
+    max-width: 10%;
+}
+ul a{
+    margin: auto;
+    text-decoration: none; 
+    color: white;
+    padding: 40px;
+    font-size: 30x stroke;
+
+}
+a:hover{
+    color: rgb(44, 44, 48);
+    background-color: white;
+    padding: 40px;
+    transition: 0.5s;
+}
+
+
+        /* Page 2 présentation */
+.row img {
+    width: 50%;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.row img:hover {
+    transform: scale(1.5);
+    border-radius: 25%;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: 50px;
+}
+
+#img-hassan {
+    width: 51.2%;
+}
+
+.col-12 p {
+    line-height: 35px;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: black;
+    letter-spacing: 2px;
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 978px) {
+    .row img {
+        margin-top: 100px;
+        width: 25%;
+        transition: 0.3s;
+    }
+    #img-hassan {
+        margin-top: 0px;
+        width: 20%;
+    }
+    .row img:hover {
+        transform: scale(1.1);
+        border-radius: 25%;
+    }
+}
+/* footer */
+footer{
+    margin-top: 5%;
+    background-color: rgb(63,94,251);
+    background: linear-gradient(to right,rgba(63,94,251,1) 0%, rgba(252,70,70,1) 100%);
+    
+}
+h3{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    
+}
+.contact{
+    color: white;
+    font-size: 15px;
+}
+.r-sociaux{
+    max-width: 15%;
+    padding: 20px;
+}
+.copyright{
+    background-color: rgb(60, 34, 122) ;
+    color: white;
