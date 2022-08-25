@@ -31,25 +31,30 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
 }
 
 .logo{
-    max-width: 10%;
-}
-ul a{
+    max-width: 40%;
     margin: auto;
+}
+.logo-text{
+    color: white;
+}
+.nav-logo{
+    padding: 0;
+    margin: 10px;
+    width: 20%; 
+}
+.nav-a{
     text-decoration: none; 
     color: white;
-    padding: 40px;
-    font-size: 30x stroke;
+    padding: 30px;
+    font-size: 25px ;
 
 }
-a:hover{
-    color: rgb(44, 44, 48);
-    background-color: white;
-    padding: 40px;
-    transition: 0.5s;
+.nav-a:hover{
+    color: rgb(232, 232, 241);
+    background-color: #3e308f;
+    padding: 30px;
 }
-
-
-        /* Page 2 présentation */
+/* Page 2 présentation */
 .row img {
     width: 50%;
     border-radius: 50%;

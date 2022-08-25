@@ -9,26 +9,29 @@ header{
     margin-bottom: 5%;
 }
 .logo{
-    max-width: 10%;
+    max-width: 40%;
+    margin: auto;
 }
 .logo-text{
     color: white;
 }
-a{
-    margin: auto;
+.nav-logo{
+    padding: 0;
+    margin: 10px;
+    width: 20%; 
+}
+.nav-a{
+    /* width: 20%; */
     text-decoration: none; 
     color: white;
-    padding: 40px;
+    padding: 30px;
     font-size: 25px ;
 
 }
-a:hover{
-    
+.nav-a:hover{
     color: rgb(232, 232, 241);
     background-color: #3e308f;
-    padding: 40px;
-    transition: 0.5s;
-    
+    padding: 30px;
 }
 
 /*corp*/
