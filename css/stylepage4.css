@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: rgb(63,94,251);
+    background: linear-gradient(to right,rgba(63,94,251,1) 0%, rgba(252,70,70,1) 100%);
+    box-shadow: 0px 10px 10px 4px rgba(106, 66, 201, 0.67);
+    }
+
+.logo{
+    max-width: 10%;
+}
+.logo-text{
+    color: white;
+}
+a{
+    margin: auto;
+    text-decoration: none; 
+    color: white;
+    padding: 40px;
+    font-size: 25px ;
+
+}
+a:hover{
+    
+    color: rgb(232, 232, 241);
+    background-color: #3e308f;
+    padding: 40px;
+    
+}
+/* footer */
+footer{
+    background-color: rgb(63,94,251);
+    background: linear-gradient(to right,rgba(63,94,251,1) 0%, rgba(252,70,70,1) 100%);
+    
+}
+h3{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    
+}
+.contact{
+    color: white;
+    font-size: 15px;
+}
+.r-sociaux{
+    max-width: 15%;
+    padding: 20px;
+}
+.copyright{
+    background-color: rgb(60, 34, 122) ;
+    color: white;
+}
