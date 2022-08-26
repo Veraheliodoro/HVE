@@ -51,7 +51,8 @@ header{
      color: rgb(26, 11, 66);
  }
 
- /* * footer */
+ 
+/* footer */
 footer{
     background-color: rgb(63,94,251);
     background: linear-gradient(to right,rgba(63,94,251,1) 0%, rgba(252,70,70,1) 100%);

@@ -73,12 +73,14 @@ header{
 footer{
   background-color: rgb(63,94,251);
   background: linear-gradient(to right,rgba(63,94,251,1) 0%, rgba(252,70,70,1) 100%);
-  margin-top: 5%;
+  margin-top: 2%;
+ 
 }
 h3{
   color: white;
   font-size: 30px;
   padding: 10px;
+  
 }
 .contact{
   color: white;
