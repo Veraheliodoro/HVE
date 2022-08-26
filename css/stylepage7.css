@@ -1,11 +1,10 @@
-/*nav*/
 *{
     margin: 0%;
     padding: 0%;
 }
 
 body {
-    background-color: #121212;
+    background-color: #fafafa;
 }
 
 header{
@@ -15,7 +14,7 @@ header{
     }
 
     .logo{
-        width: 50%;
+        width: 40%;
         margin: auto;
        
     }
@@ -44,47 +43,23 @@ header{
         
     }
 
- /* main */
-
-
-.container {
-    margin: 50px auto;
-    position: relative;
-    height: 80vh;
-    width: 80%;
-    overflow: hidden;
+.btn {
+    background-color: rgb(63,94,251);
+    background: linear-gradient(to right,rgba(63,94,251,1) 0%, rgba(252,70,70,1) 100%);
 }
 
-.slider {
-    display: flex;
-    position: absolute;
-    height: 100%;
-    width: 300%;
-    transition: 2s;
+iframe {
+    width: 90%;
+    margin: auto;
+    height: 200px;
 }
 
-.img-slide{
-   height: 100%;
-   width: 100%;
-}
-
-#img-elyesse {
-    display: flex;
-    margin: 70px auto 30px auto;
-    height: 130px;
-    border-radius: 50%;
-    transition: 0.5s;
-}
-
-#img-elyesse:hover {
-    transform: scale(1.4);
-    transition: 0.5s;
-}
 /* footer */
 footer{
     background-color: rgb(63,94,251);
     background: linear-gradient(to right,rgba(63,94,251,1) 0%, rgba(252,70,70,1) 100%);
-    
+    margin-top: 2%;
+   
 }
 h3{
     color: white;
