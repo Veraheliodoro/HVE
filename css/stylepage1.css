@@ -56,6 +56,14 @@ header{
 
 
 }
+.titre{
+  top: 35%;
+  left: 10%;
+  font-size: 505%;
+  color: beige;
+  text-shadow: 10px rgb(15, 15, 59);
+}
+
 /* footer */
 footer{
     background-color: rgb(63,94,251);

@@ -47,7 +47,8 @@ header{
  }
 
  h1, p {
-     opacity: 0.6;
+     opacity: 0.5;
+     color: rgb(26, 11, 66);
  }
 
  /* * footer */
