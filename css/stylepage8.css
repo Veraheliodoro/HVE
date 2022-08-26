@@ -46,7 +46,7 @@ header{
     object-fit: contain;
  }
 
- h1, p {
+ h1 {
      opacity: 0.5;
      color: rgb(26, 11, 66);
  }
