@@ -18,7 +18,7 @@ let count=0;
         count=0;
         }
     console.log(count);
-    slide.style.left = '-' + count + '00%';
+    slide.style.left = '-' + count + '00%'
 
 }
 ;function slidesuivante(){

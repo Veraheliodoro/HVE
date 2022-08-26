@@ -16,7 +16,7 @@ header{
     }
 
 .logo{
-    width: 50%;
+    width: 40%;
     margin: auto;
    
 }
@@ -68,10 +68,9 @@ header{
 
 .enfant{
     display: flex;
-    transition: 0.5s;
     width: 200%;
     height: 90%;
-
+    transition:0.5s;
 }
 .img-slide{
     width: 100%;
